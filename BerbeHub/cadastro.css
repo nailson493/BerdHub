@@ -1,0 +1,348 @@
+.form-control:focus {
+  border-color: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5);
+}
+
+
+
+header{
+   background-color: #030310e1;
+   padding: 1%;
+}
+
+.img-logo{
+    left: 5%;
+    position: relative;
+}
+
+#navbarTogglerDemo02{
+  width: 100px;
+  position: relative;
+  margin-right: 150px;
+}
+
+
+
+#navbarTogglerDemo02{
+    margin-left: 18%;
+    position: relative;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+#navbarTogglerDemo02 ul li a{
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+  }
+
+#navbarTogglerDemo02 ul li a{
+    background:
+      linear-gradient(
+        to right,
+        rgb(255, 255, 255),
+        rgb(255, 255, 255)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 50% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+  
+#navbarTogglerDemo02 ul li a:hover{    
+    background-size: 0 3px, 100% 3px;          
+}
+
+ /* .d-flex button{
+    position: relative;
+    height: 35px;
+}
+
+.d-flex input{
+    width: 300px;
+    height: 35px;
+
+} */
+
+.d-flex{
+  left: 200px;
+  position: relative;
+} 
+
+
+.form-control:focus {
+    border-color: #ff5111;
+    box-shadow: 0px 1px 1px rgba(255, 5, 5, 0.075) inset, 0px 0px 8px rgba(255, 0, 255, 0.5);
+} 
+
+#btn-entrar{
+    border-radius: 7px;
+    left: 45%;
+    position: relative;
+    text-transform: capitalize;
+}
+
+#btn-cadastrar{
+  color: aliceblue;
+  left: 13%;
+  position: relative;
+}
+
+#btn-cadastrar:hover{
+  color: blanchedalmond;
+}
+
+.navbar-toggler{
+  position: static;
+  background-color: aliceblue;
+  color: black;
+}
+
+
+.row{
+  margin-top: 30px;
+  margin-right: 60px;
+  margin-left: 60px;
+  border-radius: 8px;
+ 
+}
+
+.row .col{
+  border-radius: 8px;
+  position: relative;
+  
+
+  width: auto;
+  height: auto;
+  
+}
+
+.row .col img{
+  border-radius: 8px;
+  object-fit: cover;
+  height: 300px;
+  width: 400px;
+  min-width: 200px;
+}
+
+.text a{
+  font-family: 'Oswald', sans-serif;
+  font-size: 150%;
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+
+.p-1 td i {
+  position: relative;
+  font-size: 20px;
+  top: -3px;
+ 
+  left: 115px;
+
+}
+
+.l-2{
+  position: relative;
+  left: 120px;
+}
+
+.p2-line2{
+  right: 105px;
+  position: relative;
+  font-size: 20px;
+}
+
+.p-2 i {
+  position: relative;
+  font-size: 25px;
+
+} 
+
+#blocoTwo{
+  margin-top: 50px;
+}
+
+#arrow a i{
+  font-size: 50px;
+  left: 44%;
+  position: relative;
+  color: #262626;
+}
+
+#arrow{
+  word-spacing: 50px;
+  margin-top: -11%;
+}
+
+
+#arrow a i:hover{
+
+  color: #000000;
+}
+
+.line{
+  font-size: 100px;
+  color: #000000;
+}
+
+#horizontal{
+  width: 90%;
+  margin-left: 70px;
+  margin-top: 3%;
+}
+
+
+
+#loading{
+ display: none;
+}
+
+.barberContainer{
+  width:84px;
+  height:306px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.ball{
+  height:22px;
+	width:22px;
+	margin-left:31px;
+	margin-right:31px;
+  border-radius:100px;
+	background-color:#000000;
+}
+
+.endCap{
+	width:54px;
+	height:15px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:#000000;
+}
+
+.cap{
+	width:84px;
+	height:15px;
+	background-color:#000000;
+}
+
+.barberWrap{
+	height:172px;
+	width:54px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:15px;
+  margin-right:15px;
+}
+
+.barber{
+	height:172px;
+	width:54px;
+	position: inherit;
+	background:#fefbe3;
+	background-color: -webkit-linear-gradient(-45deg, transparent 25%, #fefbe3 25%, #fefbe3 50%, transparent 50%, transparent 75%, #fefbe3 75%);
+	background: -moz-linear-gradient(-45deg, transparent 25%, #fefbe3 25%, #fefbe3 50%, transparent 50%, transparent 75%, #fefbe3 75%);
+	background: -o-linear-gradient(-45deg, transparent 25%, #fefbe3 25%, #fefbe3 50%, transparent 50%, transparent 75%, #fefbe3 75%);
+	background: linear-gradient(-45deg, transparent 25%, #ff0000 25%, #ff0000 50%, transparent 50%, transparent 75%, #ff0000 75%);
+	background-size: 27px 27px;
+	-webkit-animation: barberpole 1.5s infinite linear;
+  animation: barberpole 1.5s infinite linear;
+}
+
+@-webkit-keyframes barberpole {
+		from {background-position: 0%;}
+		to {background-position: 100%;}
+}
+
+
+footer{
+background-color: #333333;
+padding-top: 1%;
+}
+
+footer h4{
+  font-size: 19px;
+  color: #ffffff;
+}
+
+footer p{
+  color: #ffffff;
+}
+
+#info{
+  right: 125px;
+  position: relative;
+}
+
+
+#ajuda{
+
+}
+
+
+
+
+#section-media{
+  left: 10px;
+}
+
+.links h6{
+  left: px;
+  color: #ffffff;
+  position: relative;
+  font-family: 'Roboto Condensed', sans-serif;  
+}
+
+
+
+#lotos-real{
+  /* font-family: 'Roboto Condensed', sans-serif; */
+}
+
+
+.links h6{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500) {
+  .d-flex {
+    left: 100%;
+    top: 10px;
+  }
+  .d-flex input{
+    width: 10000px;
+    top: 100px;
+  }
+  .navbar-toggler{
+    top: -70px;
+    right: 20px;
+    position: relative;
+  }
+  #box1{
+    max-width: 1200px;
+  }
+
+}

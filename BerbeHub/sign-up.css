@@ -1,0 +1,30 @@
+section h1{
+    font-family: 'Anton', sans-serif;
+
+}
+
+section a{
+    font-family: 'Anton', sans-serif;
+
+}
+
+
+
+
+.btn-back:hover{
+    width: 50px;
+   
+    animation: zoom-in-zoom-out 1s ease infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(0.9, 0.9);
+    }
+    50% {
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }

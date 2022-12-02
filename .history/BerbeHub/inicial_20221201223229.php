@@ -22,8 +22,9 @@
     href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"
-
     <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+
+    sc
   
    
 </head>
@@ -805,7 +806,9 @@
 
 
 <?php
+
 include "footer.php";
+
 ?>
 
 

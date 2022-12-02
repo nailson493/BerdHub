@@ -22,105 +22,98 @@
     href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"
-
     <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+
   
    
 </head>
 <body>
 
-<?php 
- include "header.php";
-?>
-
-
+<?php
 
 <div id="container">
   <div class="liss"> 
-  <div class="bloco">
-      <div id="carouselExampleCaptions1" class="carousel slide relative" data-bs-ride="carousel">
-      <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+      <div class="bloco">
+        <div id="carouselExampleCaptions1" class="carousel slide relative" data-bs-ride="carousel">
+        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions1"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions1"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions1"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner relative w-full overflow-hidden">
+          <div class="carousel-item active relative float-left w-full">
+            <img
+              src="img/pexels-dmitry-zvolskiy-1805600.jpg"
+              class="block w-full"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item relative float-left w-full">
+            <img
+              src="img/pexels-luis-quintero-1453005 (1).jpg"
+              class="block w-full"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item relative float-left w-full">
+            <img
+              src="img/pexels-mídia-897251.jpg"
+              class="block w-full"
+              alt="..."
+            />
+          </div>
+        </div>
         <button
+          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
           type="button"
           data-bs-target="#carouselExampleCaptions1"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
+          data-bs-slide="prev"
+        >
+          <i class="fa-solid fa-chevron-left"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
         <button
+          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
           type="button"
           data-bs-target="#carouselExampleCaptions1"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions1"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
+          data-bs-slide="next"
+        >
+          <i class="fa-solid fa-chevron-right"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+    
       </div>
-      <div class="carousel-inner relative w-full overflow-hidden">
-        <div class="carousel-item active relative float-left w-full">
-          <img
-            src="img/pexels-dmitry-zvolskiy-1805600.jpg"
-            class="block w-full"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item relative float-left w-full">
-          <img
-            src="img/pexels-luis-quintero-1453005 (1).jpg"
-            class="block w-full"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item relative float-left w-full">
-          <img
-            src="img/pexels-mídia-897251.jpg"
-            class="block w-full"
-            alt="..."
-          />
-        </div>
+        <div class="text-card">
+          <a href=""> 
+            <table id="table">
+              <tr class="p-1">
+                <td>Erick Barber <i class="fa-solid fa-star"></i></td>
+                <td class="l-2">4,5</td>
+              </tr>
+              <tr class="p-2">
+                <td><i class="fa-sharp fa-solid fa-location-dot"></i></td>
+                <td class="p2-line2">30 KM</td>
+              </tr>
+            </table>
+          </a>
       </div>
-      <button
-        class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-        type="button"
-        data-bs-target="#carouselExampleCaptions1"
-        data-bs-slide="prev"
-      >
-        <i class="fa-solid fa-chevron-left"></i>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-        type="button"
-        data-bs-target="#carouselExampleCaptions1"
-        data-bs-slide="next"
-      >
-        <i class="fa-solid fa-chevron-right"></i>
-        <span class="visually-hidden">Next</span>
-      </button>
-   
-    </div>
-  </div>
-  
-  <div class="text-card">
-    <a href=""> 
-      <table id="table">
-        <tr class="p-1">
-          <td>Erick Barber <i class="fa-solid fa-star"></i></td>
-          <td class="l-2">4,5</td>
-        </tr>
-        <tr class="p-2">
-          <td><i class="fa-sharp fa-solid fa-location-dot"></i></td>
-          <td class="p2-line2">30 KM</td>
-        </tr>
-      </table>
-    </a>
-
-  </div>
   </div>
 
   <div class="liss"> 
@@ -192,24 +185,22 @@
     
       </div>
     </div>
+    
+    <div class="text-card">
+      <a href=""> 
+        <table id="table">
+          <tr class="p-1">
+            <td>Erick Barber <i class="fa-solid fa-star"></i></td>
+            <td class="l-2">4,5</td>
+          </tr>
+          <tr class="p-2">
+            <td><i class="fa-sharp fa-solid fa-location-dot"></i></td>
+            <td class="p2-line2">30 KM</td>
+          </tr>
+        </table>
+      </a>
+  </div>
   
-  <div class="text-card">
-    <a href=""> 
-      <table id="table">
-        <tr class="p-1">
-          <td>Erick Barber <i class="fa-solid fa-star"></i></td>
-          <td class="l-2">4,5</td>
-        </tr>
-        <tr class="p-2">
-          <td><i class="fa-sharp fa-solid fa-location-dot"></i></td>
-          <td class="p2-line2">30 KM</td>
-        </tr>
-      </table>
-    </a>
-  </div>
-
-  </div>
-
   <div class="liss"> 
     <div class="bloco">
         <div id="carouselExampleCaptions3" class="carousel slide relative" data-bs-ride="carousel">
@@ -293,14 +284,6 @@
           </tr>
         </table>
       </a>
-  </div>
-
-
-
-
-
-
-
   </div>
 
   <div class="liss"> 
@@ -388,14 +371,6 @@
       </a>
   </div>
 
-
-
-
-
-
-
-  </div>
-
   <div class="liss"> 
     <div class="bloco">
         <div id="carouselExampleCaptions5" class="carousel slide relative" data-bs-ride="carousel">
@@ -479,14 +454,6 @@
           </tr>
         </table>
       </a>
-  </div>
-
-
-
-
-
-
-
   </div>
 
   <div class="liss"> 
@@ -574,14 +541,6 @@
       </a>
   </div>
 
-
-
-
-
-
-
-  </div>
-
   <div class="liss"> 
     <div class="bloco">
         <div id="carouselExampleCaptions7" class="carousel slide relative" data-bs-ride="carousel">
@@ -665,14 +624,6 @@
           </tr>
         </table>
       </a>
-  </div>
-
-
-
-
-
-
-
   </div>
 
   <div class="liss"> 
@@ -760,14 +711,13 @@
       </a>
   </div>
 
-  </div>
 
+</div>
 
-  <div class="box">
+<div class="box-nav">
   <div class="line">
     <hr />
   </div>
-  
   <nav id="navegation-bar" aria-label="Page navigation example">
     <ul class="inline-flex items-center -space-x-px">
       <li>
@@ -798,18 +748,13 @@
         </a>
       </li>
     </ul>
-  </nav>
-  
-  </div>
+    </nav>
 </div>
 
 
 <?php
 include "footer.php";
 ?>
-
-
-
 
 
 </body>

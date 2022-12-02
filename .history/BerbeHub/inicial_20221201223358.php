@@ -805,7 +805,9 @@
 
 
 <?php
+
 include "footer.php";
+
 ?>
 
 

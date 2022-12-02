@@ -40,24 +40,20 @@ margin-left: 5%;
 }
 
 .p-1 td i{
-  left: 80%;
+  left: 135%;
   position: relative;
+  font-size: 125%;
 }
 
 .l-2{
   position: relative;
-  left: 60%;
+  left: 100%;
 }
 
 .text-card{
   font-family: 'Oswald', sans-serif;
-  font-size: 60px;
+  font-size: 125%;
 }
-
-#table{
-  font-size: 35%;
-}
-
 
 
 .line hr{

@@ -40,13 +40,13 @@ margin-left: 5%;
 }
 
 .p-1 td i{
-  left: 80%;
+  left: 135%;
   position: relative;
 }
 
 .l-2{
   position: relative;
-  left: 60%;
+  left: 100%;
 }
 
 .text-card{
@@ -54,9 +54,7 @@ margin-left: 5%;
   font-size: 60px;
 }
 
-#table{
-  font-size: 35%;
-}
+#
 
 
 

@@ -43,7 +43,7 @@
             </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray">© 2022 <a href="https://flowbite.com/" class="hover:underline">ForgetCompany</a>. All Rights Reserved.
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray">© 2022 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
         <div class="sm:flex sm:items-center sm:justify-between -mt-4">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV"></span>
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">

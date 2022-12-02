@@ -1,5 +1,5 @@
 header{
-    background: #111827;
+    background: #333;
 }
 
 #container{
@@ -57,9 +57,10 @@ margin-left: 5%;
 
 .line hr{
 
+  border-color: rgb(0, 0, 0);
   right: 3%;
   position: relative;
-  margin-top: 2%;
+  margin-top: 5%;
 
 }
 

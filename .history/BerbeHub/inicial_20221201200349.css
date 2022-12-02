@@ -1,0 +1,24 @@
+header{
+    background: #333;
+}
+.bloco {
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+  }
+
+
+  .liss {
+    width: 270px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    display: inline-block;
+    /* background: #00CC99;   */
+  }
+
+  .liss img{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 3%;
+  }

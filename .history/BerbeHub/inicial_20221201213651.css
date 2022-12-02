@@ -1,9 +1,9 @@
 header{
-    background: #111827;
+    background: #333;
 }
 
 #container{
-margin-left: 5%;
+margin: 5%;
 }
 
 .bloco {
@@ -14,7 +14,7 @@ margin-left: 5%;
 
 
   .liss {
-    width: 240px;
+    width: 270px;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 2%;
@@ -23,7 +23,7 @@ margin-left: 5%;
   }
 
   .liss img{
-    height: 280px;
+    height: 200px;
     object-fit: cover;
     border-radius: 3%;
   }
@@ -40,13 +40,13 @@ margin-left: 5%;
 }
 
 .p-1 td i{
-  left: 135%;
+  left: 170%;
   position: relative;
 }
 
 .l-2{
   position: relative;
-  left: 100%;
+  left: 125%;
 }
 
 .text-card{
@@ -57,14 +57,14 @@ margin-left: 5%;
 
 .line hr{
 
-  right: 3%;
-  position: relative;
-  margin-top: 2%;
+  border-color: rgb(0, 0, 0);
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
 
 }
 
 #navegation-bar{
-  margin-top: 2%;
-  position: relative;
-  margin-left: 37%;
+  margin-top: 10%;
 }

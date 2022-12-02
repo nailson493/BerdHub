@@ -1,5 +1,5 @@
 header{
-    background: #111827;
+    background: #333;
 }
 
 #container{
@@ -40,7 +40,7 @@ margin-left: 5%;
 }
 
 .p-1 td i{
-  left: 135%;
+  left: 10%;
   position: relative;
 }
 
@@ -57,14 +57,14 @@ margin-left: 5%;
 
 .line hr{
 
-  right: 3%;
-  position: relative;
-  margin-top: 2%;
+  border-color: rgb(0, 0, 0);
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
 
 }
 
 #navegation-bar{
-  margin-top: 2%;
-  position: relative;
-  margin-left: 37%;
+  margin-top: 10%;
 }

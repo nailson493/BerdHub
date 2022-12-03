@@ -1,0 +1,28 @@
+
+
+
+
+
+<script>
+
+var btn = document.getElementById('btn-lol');
+var email = document.querySelector('#email');
+var telefone = document.querySelector("#telefone");
+btn.addEventListener('click', function() {
+    
+  if(email.style.display === 'block') {
+        email.style.display = 'none';
+        this.textContent = 'Processing…';
+  } else {
+        email.style.display = 'block';
+  }
+  if(telefone.style.display === 'none'){
+      telefone.style.display = 'block';
+  } else {
+      telefone.style.display = 'none';
+  }
+});
+
+
+</script>
+
